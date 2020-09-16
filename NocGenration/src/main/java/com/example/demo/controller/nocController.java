@@ -42,6 +42,7 @@ public class nocController
 	public String m3(@RequestBody Nocdetails n)
 	{
 	si.update(n);
+	System.out.println(n);	
 	return "update";
 	}
 	

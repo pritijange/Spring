@@ -17,7 +17,7 @@ import com.example.demo.model.Nocdetails;
 import com.example.demo.service.ServiceI;
 
 @RestController
-@CrossOrigin("*")
+//@CrossOrigin("*")
 public class nocController 
 {
     @Autowired
